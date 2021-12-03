@@ -15,4 +15,4 @@ jobs:
     - name: make
       env:
           MODDABLE: /home/runner/work/moddable/moddable
-      run: cd xs/makefiles/lin && make
+      run: cd xs/makefiles/lin && make release
