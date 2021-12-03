@@ -1,0 +1,8 @@
+extraction:
+  cpp:
+     after_prepare:
+        - export MODDABLE=$LGTM_SRC
+     index:
+        build_command:
+        - cd $MODDABLE/xs/makefiles/lin
+        - make
