@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"embedded:sensor/Accelerometer-Gyroscope/MPU6050": "$(MODDABLE)/modules/drivers/sensors/mpu6050/mpu6050"
+	},
+	"preload": [
+		"embedded:sensor/Accelerometer-Gyroscope/MPU6050"
+	]
+}
+

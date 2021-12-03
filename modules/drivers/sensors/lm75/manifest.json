@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"embedded:sensor/Temperature/LM75": "$(MODDABLE)/modules/drivers/sensors/lm75/lm75"
+	},
+	"preload": [
+		"embedded:sensor/Temperature/LM75"
+	]
+}
+

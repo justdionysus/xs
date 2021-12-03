@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"embedded:sensor/Temperature/TMP117": "$(MODDABLE)/modules/drivers/sensors/tmp117/tmp117"
+	},
+	"preload": [
+		"embedded:sensor/Temperature/TMP117"
+	]
+}
+

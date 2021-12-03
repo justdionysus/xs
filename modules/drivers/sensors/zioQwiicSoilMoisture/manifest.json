@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"embedded:sensor/Moisture/ZIOQWIICMOISTURE": "$(MODDABLE)/modules/drivers/sensors/zioQwiicSoilMoisture/zioQwiicSoilMoisture"
+	},
+	"preload": [
+		"embedded:sensor/Moisture/ZIOQWIICMOISTURE"
+	]
+}
+

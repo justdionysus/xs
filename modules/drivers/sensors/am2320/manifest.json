@@ -1,0 +1,10 @@
+{
+	"modules": {
+		"embedded:sensor/Humidity-Temperature/AM2320": "$(MODDABLE)/modules/drivers/sensors/am2320/am2320",
+		"crc": "$(MODDABLE)/modules/data/crc/crc"
+	},
+	"preload": [
+		"embedded:sensor/Humidity-Temperature/AM2320"
+	]
+}
+

@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"embedded:sensor/Accelerometer/LIS3DH": "$(MODDABLE)/modules/drivers/sensors/lis3dh/lis3dh"
+	},
+	"preload": [
+		"embedded:sensor/Accelerometer/LIS3DH"
+	]
+}
+

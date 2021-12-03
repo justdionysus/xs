@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"embedded:sensor/Magnetometer/AK8963": "$(MODDABLE)/modules/drivers/sensors/ak8963/ak8963"
+	},
+	"preload": [
+		"embedded:sensor/Magnetometer/AK8963"
+	]
+}
+

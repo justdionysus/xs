@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"embedded:sensor/Proximity-Temperature/URM09": "$(MODDABLE)/modules/drivers/sensors/urm09/urm09"
+	},
+	"preload": [
+		"embedded:sensor/Proximity-Temperature/URM09"
+	]
+}
+

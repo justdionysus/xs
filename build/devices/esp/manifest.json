@@ -1,0 +1,43 @@
+{
+	"modules": {
+		"*": [
+			"$(MODULES)/base/time/*",
+			"$(MODULES)/base/time/esp/*",
+			"$(MODULES)/base/timer/*",
+			"$(MODULES)/base/timer/mc/*",
+			"$(MODULES)/files/preference/modPreference",
+			"$(MODULES)/files/preference/esp/modPreference"
+		]
+	},
+	"preload": [
+		"preference",
+		"time",
+		"timer"
+	],
+	"recipes": {
+		"strings-in-flash": [
+			"commodetto*",
+			"piu*",
+			"Resource*",
+			"mod*",
+			"i2c*",
+			"digital*"
+		],
+		"c++11": [
+			"*.cc.o",
+			"*.cpp.o"
+		]
+	},
+	"platforms": {
+		"esp/*": {
+			"include": "./targets/$(SUBPLATFORM)/manifest.json"
+		}
+	},
+	"defines": {
+		"spi": {
+			"miso_pin": 12,
+			"mosi_pin": 13,
+			"sck_pin": 14
+		}
+	}
+}
